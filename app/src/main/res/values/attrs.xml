@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 自定义属性的资源, 可以给一个控件指定属性 -->
+    <!-- name 代表 指定哪一个自定义View的类名 -->
+    <declare-styleable name="PictureShowAnimation">
+        <!-- 只要和尺寸有关,都应该是 dimension 可以使用 xxxdp -->
+        <attr name="column" format="integer"/>
+        <attr name="row" format="integer"/>
+        <attr name="blankTop" format="dimension"/>
+        <attr name="blankBottom" format="dimension"/>
+        <attr name="blankLeft" format="dimension"/>
+        <attr name="blankRight" format="dimension"/>
+    </declare-styleable>
+</resources>
